@@ -14,9 +14,7 @@ public class DesktopApplication1AboutBox extends javax.swing.JDialog {
         getRootPane().setDefaultButton(closeButton);
     }
 
-    @Action public void closeAboutBox() {
-        dispose();
-    }
+    
 
     /** This method is called from within the constructor to
      * initialize the form.
