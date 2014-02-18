@@ -15,9 +15,7 @@ public class DesktopApplication1 extends SingleFrameApplication {
     /**
      * At startup create and show the main frame of the application.
      */
-    @Override protected void startup() {
-        show(new DesktopApplication1View(this));
-    }
+    
 
     /**
      * This method is to initialize the specified window by injecting resources.
